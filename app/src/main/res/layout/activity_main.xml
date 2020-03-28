@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Expressao"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_gravity="end"
+        android:maxLines="1"
+        android:textColor="#EFFAFF"
+        android:background="#000000"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="end"
+        android:maxLines="1"
+        android:textColor="@color/actionButton"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Sete"
+                style="@style/NumberButtonStyle"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/Oito"
+                style="@style/NumberButtonStyle"
+                android:text="8"/>
+            <TextView
+                android:id="@+id/Nove"
+                style="@style/NumberButtonStyle"
+                android:text="9"/>
+            <TextView
+                android:id="@+id/Divisao"
+                style="@style/NumberButtonStyle"
+                android:text="/"/>
+
+
+        </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Quatro"
+            style="@style/NumberButtonStyle"
+            android:text="4"/>
+        <TextView
+            android:id="@+id/Cinco"
+            style="@style/NumberButtonStyle"
+            android:text="5"/>
+        <TextView
+            android:id="@+id/Seis"
+            style="@style/NumberButtonStyle"
+            android:text="6"/>
+        <TextView
+            android:id="@+id/Multiplicacao"
+            style="@style/NumberButtonStyle"
+            android:text="*"/>
+
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Um"
+            style="@style/NumberButtonStyle"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/Dois"
+            style="@style/NumberButtonStyle"
+            android:text="2"/>
+        <TextView
+            android:id="@+id/Tres"
+            style="@style/NumberButtonStyle"
+            android:text="3"/>
+        <TextView
+            android:id="@+id/Adicao"
+            style="@style/NumberButtonStyle"
+            android:text="+"/>
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/Limpar"
+            style="@style/NumberButtonStyle"
+            android:text="CE" />
+
+        <TextView
+            android:id="@+id/Zero"
+            style="@style/NumberButtonStyle"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/Igual"
+            style="@style/NumberButtonStyle"
+            android:text="=" />
+
+        <TextView
+            android:id="@+id/Subtracao"
+            style="@style/NumberButtonStyle"
+            android:text="-"/>
+
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
